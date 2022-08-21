@@ -1,5 +1,9 @@
 # Notes
 
+- https://github.com/fadilxcoder/typescript/tree/master (Udemy branch)
+
+---
+
 - Install typescript
 
 ```
