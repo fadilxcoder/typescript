@@ -2,6 +2,7 @@
 
 - https://github.com/fadilxcoder/typescript/tree/master (Udemy branch)
 
+
 ---
 
 - Install typescript
@@ -56,9 +57,31 @@ module.exports = {
 };
 ```
 
+- Launch app with `http-server`
 - Compile everything with `npx webpack`
 
+## Run typescript without compiling to JS
+
+- Install `npm i @digitak/esrun -g`
+- RUN `esrun ./src/app.ts `
+
+```
+$ esrun ./src/app.ts
+-------------------------------
+{
+  id: 1,
+  full_name: 'full_name',
+  email: 'email',
+  phone_number: 'phone_number',
+  address: 'address',
+  job: 'job',
+  company: 'company',
+  card_type: 'card_type',
+  account_number: 'account_number'
+}
+```
 
 ### Reference
 
 - https://dev.to/silvenleaf/simplest-way-to-compile-all-typescript-into-one-single-js-file-19bj (HTML / Typescript / Webpack)
+- https://webpack.js.org/configuration/ (webpack.config.js configuration)

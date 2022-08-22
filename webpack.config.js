@@ -1,8 +1,8 @@
 const path = require('path');
 
 module.exports = {
-    mode: "production", // development
-    devtool: "inline-source-map",
+    mode: "development", // development, production
+    devtool: "hidden-source-map", // hidden-source-map, inline-source-map
     entry: {
         main: "./src/app.ts",
     },
