@@ -58,7 +58,7 @@ module.exports = {
 ```
 
 - Launch app with `http-server`
-- Compile everything with `npx webpack`
+- Compile everything with `npx webpack` / `npx webpack --watch`
 
 ## Run typescript without compiling to JS
 
@@ -81,7 +81,20 @@ $ esrun ./src/app.ts
 }
 ```
 
+## Axios / JQuery - Api
+
+- `npm install -D axios`
+- `npm install --save-dev @types/jquery`
+- `npm install jquery`
+- Axios promise - fetch data
+
 ### Reference
 
 - https://dev.to/silvenleaf/simplest-way-to-compile-all-typescript-into-one-single-js-file-19bj (HTML / Typescript / Webpack)
 - https://webpack.js.org/configuration/ (webpack.config.js configuration)
+- https://bobbyhadz.com/blog/typescript-http-request-axios (Axios)
+
+
+### Preview
+
+<img src="./app.png" alt="App">
